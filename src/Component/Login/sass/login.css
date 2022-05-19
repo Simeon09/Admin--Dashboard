@@ -1,0 +1,95 @@
+.Login {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Login .input-tag {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+@media screen and (max-width: 500px) {
+  .Login .input-tag {
+    width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.Login .input-tag input {
+  width: 350px;
+  padding-top: 10px;
+  border: none;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .Login .input-tag input {
+    width: 300px;
+  }
+}
+
+.Login .input-tag input:focus {
+  border: none;
+  outline: none;
+}
+
+.Login .input-tag .icon {
+  padding-left: 5px;
+  font-size: 25px;
+  padding-top: 5px;
+}
+
+.Login .input-tag .iconE {
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+.Login .input-tag .btn {
+  border: none;
+  background-color: transparent;
+}
+
+.Login .input-tag:focus-within {
+  border: 2px solid blue;
+}
+
+.btnTwo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px 200px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 500px) {
+  .btnTwo {
+    padding: 10px 125px;
+  }
+}
+
+.btnTwo:hover {
+  background-color: lightblue;
+}
+/*# sourceMappingURL=login.css.map */
