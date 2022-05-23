@@ -1,7 +1,41 @@
 .Home{
+    width: 100%;
     padding-left: 3vw;
+    padding-right: 3vw;
     .rate{
+        
         display: flex;
         justify-content: space-between;
+        
+        .mainBox{
+            cursor: pointer;
+            padding: 20px;
+            width: 250px;
+            border-radius: 10px;
+           h4{ 
+               padding: 0px;
+               box-sizing: border-box;
+               margin: 0px;
+               color: #5558;
+           }
+           .Rate{
+               span:first-child{
+
+                   font-size: 30px;
+                   padding-top: 30px;
+                   font-weight: 700;
+               }
+               .up{
+                   color: green;
+                   font-weight: 500;
+               }
+               .down{
+                   color: red;
+                   font-weight: 500;
+               }
+           }
+
+            box-shadow: -10px 8px 19px 10px rgba(0,0,0,0.17); 
+        }
     }
 }

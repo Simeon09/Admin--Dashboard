@@ -1,5 +1,7 @@
 .Home {
+  width: 100%;
   padding-left: 3vw;
+  padding-right: 3vw;
 }
 
 .Home .rate {
@@ -9,5 +11,38 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.Home .rate .mainBox {
+  cursor: pointer;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  -webkit-box-shadow: -10px 8px 19px 10px rgba(0, 0, 0, 0.17);
+          box-shadow: -10px 8px 19px 10px rgba(0, 0, 0, 0.17);
+}
+
+.Home .rate .mainBox h4 {
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  color: #5558;
+}
+
+.Home .rate .mainBox .Rate span:first-child {
+  font-size: 30px;
+  padding-top: 30px;
+  font-weight: 700;
+}
+
+.Home .rate .mainBox .Rate .up {
+  color: green;
+  font-weight: 500;
+}
+
+.Home .rate .mainBox .Rate .down {
+  color: red;
+  font-weight: 500;
 }
 /*# sourceMappingURL=home.css.map */
