@@ -16,27 +16,27 @@ const Sidebar = () => {
       <h3>Welcome simeon</h3>
       <div className="main-sidebarContent">
 
-      <Link to='/Home'>
+      <Link className='links' to='/Home'>
         <span className="iconName active">
           <AiFillHome /> <p>Home</p>
         </span>
       </Link>
-      <Link to='/Clients'>
+      <Link className='links' to='/Clients'>
         <span>
           <FaUserFriends /> <p>Client</p>
         </span>
       </Link>
-      <Link to='/Product'>
+      <Link className='links' to='/Product'>
         <span>
           <FaProductHunt /> <p>Products</p>
         </span>
       </Link>
-      <Link to='/Team'>
+      <Link className='links' to='/Team'>
         <span>
           <AiOutlineTeam/> <p>Team</p>
         </span>
       </Link>
-      <Link to='/'>
+      <Link  className='links' to='/'>
         <span>
           <AiOutlineLogout /> <p>Log out</p>
         </span>

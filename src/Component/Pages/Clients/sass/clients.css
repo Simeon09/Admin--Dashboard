@@ -1,5 +1,6 @@
 .client {
-  margin-left: 300px;
-  margin-top: 30px;
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
 }
 /*# sourceMappingURL=clients.css.map */

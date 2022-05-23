@@ -1,39 +1,48 @@
+.dashBoard-sidebar {
 
+    padding: 3vw;
+    padding-top: 5px;
+    background-color: rgb(42, 42, 197);
+    width: 100px;
+    color: white;
+    height: 80vh;
+    padding-bottom: 100px;
+    flex: 1;
+    position: sticky;
+    top:50px;
     
-    .dashBoard-sidebar{
-        
-        padding : 3vw;
-        background-color: rgb(11, 11, 69);
-        width: 150px;
+
+    .main-sidebarContent {
         color: white;
-        
-        padding-bottom: 100px;
-            
-            .main-sidebarContent{
-                position: sticky;
-                color: white;
-                font-size: 20px;
-               span{
-                    display: flex;
-                    align-items: center;
-                    gap: 10px;
-                  &:hover{
-                      color: rgb(191, 191, 244);
-                      cursor: pointer;
-                      border-radius: 20px;
-                  } 
-                  &:active{
-                    color: rgb(191, 191, 244); 
-                  }
-    
-                }
-                .iconName.active{
-                    color: rgb(191, 191, 244);
-    
-                }
+        font-size: 20px;
+        .links{
+             text-decoration: none;
+        }
+
+        span {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            &:hover {
+                color: rgb(191, 191, 244);
+                cursor: pointer;
+                border-radius: 20px;
             }
+
+            &:active {
+                color: rgb(191, 191, 244);
+            }
+
         }
-        .Right{
-            flex: 4;
+
+        .iconName.active {
+            color: rgb(191, 191, 244);
+
         }
-    
+    }
+}
+
+// .Right {
+//     flex: 4;
+// }

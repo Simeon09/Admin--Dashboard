@@ -19,7 +19,7 @@ const Navbar = () => {
           <span className="two">2</span>
         </div>
         <div>
-          <MdLanguage className="icon" />
+          <MdLanguage className="icons" />
         </div>
         <div>
           <img src={Avatar} className="avatar" alt="im" />

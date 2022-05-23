@@ -1,5 +1,94 @@
-.dash {
-  margin-left: 300px;
-  margin-top: -600px;
+.header {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding-top: 20px;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  background-color: white;
+}
+
+.header h2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header .navIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.header .navIcon div {
+  padding-left: 20px;
+}
+
+.header .navIcon .icons {
+  font-size: 20px;
+  color: #555;
+}
+
+.header .navIcon .icon {
+  font-size: 15px;
+  color: #555;
+}
+
+.header .navIcon .notify {
+  position: relative;
+}
+
+.header .navIcon .two {
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  top: -10px;
+  right: -3px;
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 200%;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 12px;
+}
+
+.header .navIcon .avatar {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 200%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .side {
+  height: calc(100vh - 50px);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
 }
 /*# sourceMappingURL=Dashboard.css.map */
