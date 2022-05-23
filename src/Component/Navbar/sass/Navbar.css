@@ -1,0 +1,71 @@
+.navbar {
+  margin-left: 250px;
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: -560px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding-right: 3vw;
+}
+
+.navbar .iconbar {
+  font-size: 25px;
+}
+
+.navbar .navIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navIcon .notify {
+  position: relative;
+}
+
+.navbar .navIcon .two {
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  top: -10px;
+  right: -3px;
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 200%;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 12px;
+}
+
+.navbar .navIcon .icon {
+  font-size: 20px;
+  color: #555;
+}
+
+.navbar .navIcon div {
+  padding-left: 20px;
+}
+
+.navbar .avatar {
+  width: 50px;
+  background-color: white;
+  border-radius: 200%;
+}
+/*# sourceMappingURL=Navbar.css.map */

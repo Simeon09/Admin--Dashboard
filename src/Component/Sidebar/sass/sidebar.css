@@ -1,0 +1,45 @@
+.dashBoard-sidebar {
+  padding: 3vw;
+  background-color: #0b0b45;
+  width: 150px;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.dashBoard-sidebar .main-sidebarContent {
+  position: -webkit-sticky;
+  position: sticky;
+  color: white;
+  font-size: 20px;
+}
+
+.dashBoard-sidebar .main-sidebarContent span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.dashBoard-sidebar .main-sidebarContent span:hover {
+  color: #bfbff4;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.dashBoard-sidebar .main-sidebarContent span:active {
+  color: #bfbff4;
+}
+
+.dashBoard-sidebar .main-sidebarContent .iconName.active {
+  color: #bfbff4;
+}
+
+.Right {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+}
+/*# sourceMappingURL=sidebar.css.map */
