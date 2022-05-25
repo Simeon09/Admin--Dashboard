@@ -2,13 +2,21 @@
 
     padding: 3vw;
     padding-top: 5px;
-    background-color: rgb(42, 42, 197);
+    // background-color: rgb(42, 42, 197);
+    background-color: rgb(18, 17, 17);
     width: 100px;
     color: white;
     height: 80vh;
     padding-bottom: 100px;
     flex: 1;
     position: sticky;
+    @media screen and (max-width:760px) {
+        width:90px;
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+
+
    
     
 
@@ -17,6 +25,8 @@
         font-size: 20px;
         .links{
              text-decoration: none;
+             color: white;
+             
         }
 
         span {
@@ -25,21 +35,24 @@
             gap: 10px;
 
             &:hover {
-                color: rgb(191, 191, 244);
+                color: rgb(21, 21, 180);
                 cursor: pointer;
-                border-radius: 20px;
+                border-radius: 10px;
+                
+                
             }
 
             &:active {
-                color: rgb(191, 191, 244);
+                color: rgb(21, 21, 180);
             }
 
         }
 
         .iconName.active {
-            color: rgb(191, 191, 244);
+            color:  rgb(21, 21, 180);
 
         }
+        
     }
 }
 

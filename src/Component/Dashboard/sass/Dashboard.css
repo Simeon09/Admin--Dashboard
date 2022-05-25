@@ -18,11 +18,15 @@
           box-shadow: -10px 10px 20px 15px rgba(0, 0, 0, 0.07);
 }
 
-.header h2 {
+.header button {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0px;
   margin: 0px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 30px;
 }
 
 .header .navIcon {

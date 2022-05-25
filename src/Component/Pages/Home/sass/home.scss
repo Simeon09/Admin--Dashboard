@@ -7,12 +7,39 @@
         
         display: flex;
         justify-content: space-between;
+        @media screen and (max-width:750px) {
+            display: grid;
+        }
         
         .mainBox{
             cursor: pointer;
             padding: 20px;
-            width: 250px;
+            max-width: 250px;
             border-radius: 10px;
+            @media screen and (max-width:968px) {
+               max-width: 160px;
+                padding: 10px;
+                
+             }
+             @media screen and (max-width:800px) {
+                width: 170px;
+                padding: 10px;
+                
+             }
+            //  @media screen and (max-width:750px) {
+            //     width: 150px;
+            //     padding: 10px;
+                
+            //  }
+            //  @media screen and (max-width:700px) {
+            // max-width: 150px;
+            //  }
+             @media screen and (max-width:750px) {
+                max-width: 150px;
+                margin-bottom: 20px;
+                 }
+            
+
            h4{ 
                padding: 0px;
                box-sizing: border-box;

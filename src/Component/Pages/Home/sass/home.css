@@ -13,13 +13,41 @@
           justify-content: space-between;
 }
 
+@media screen and (max-width: 750px) {
+  .Home .rate {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+
 .Home .rate .mainBox {
   cursor: pointer;
   padding: 20px;
-  width: 250px;
+  max-width: 250px;
   border-radius: 10px;
   -webkit-box-shadow: -10px 8px 19px 10px rgba(0, 0, 0, 0.17);
           box-shadow: -10px 8px 19px 10px rgba(0, 0, 0, 0.17);
+}
+
+@media screen and (max-width: 968px) {
+  .Home .rate .mainBox {
+    max-width: 160px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Home .rate .mainBox {
+    width: 170px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .Home .rate .mainBox {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
 }
 
 .Home .rate .mainBox h4 {

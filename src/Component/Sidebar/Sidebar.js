@@ -31,7 +31,7 @@ const Sidebar = () => {
       </Link>
       <Link className='links' to='/Product'>
         <span>
-          <FaProductHunt /> <p>Products</p>
+          <FaProductHunt /> <p>Product</p>
         </span>
       </Link>
       <Link className='links' to='/Team'>

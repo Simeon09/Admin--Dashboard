@@ -1,7 +1,7 @@
 .dashBoard-sidebar {
   padding: 3vw;
   padding-top: 5px;
-  background-color: #2a2ac5;
+  background-color: #121111;
   width: 100px;
   color: white;
   height: 80vh;
@@ -11,7 +11,14 @@
           flex: 1;
   position: -webkit-sticky;
   position: sticky;
-  top: 50px;
+}
+
+@media screen and (max-width: 760px) {
+  .dashBoard-sidebar {
+    width: 90px;
+    padding-right: 2vw;
+    padding-left: 2vw;
+  }
 }
 
 .dashBoard-sidebar .main-sidebarContent {
@@ -21,6 +28,7 @@
 
 .dashBoard-sidebar .main-sidebarContent .links {
   text-decoration: none;
+  color: white;
 }
 
 .dashBoard-sidebar .main-sidebarContent span {
@@ -34,16 +42,16 @@
 }
 
 .dashBoard-sidebar .main-sidebarContent span:hover {
-  color: #bfbff4;
+  color: #1515b4;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .dashBoard-sidebar .main-sidebarContent span:active {
-  color: #bfbff4;
+  color: #1515b4;
 }
 
 .dashBoard-sidebar .main-sidebarContent .iconName.active {
-  color: #bfbff4;
+  color: #1515b4;
 }
 /*# sourceMappingURL=sidebar.css.map */

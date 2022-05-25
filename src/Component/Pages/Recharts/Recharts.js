@@ -94,7 +94,7 @@ const Recharts = () => {
         <h2>Sales Report</h2>
       </div>
 
-      <ResponsiveContainer width="100%" aspect={4 / 1.5}>
+      <ResponsiveContainer width="50%" aspect={4 / 1.5}>
         <AreaChart
         //   width={730}
         
