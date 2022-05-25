@@ -10,10 +10,12 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-left: 3vw;
   padding-right: 3vw;
   background-color: white;
+  -webkit-box-shadow: -10px 10px 20px 15px rgba(0, 0, 0, 0.07);
+          box-shadow: -10px 10px 20px 15px rgba(0, 0, 0, 0.07);
 }
 
 .header h2 {
@@ -85,10 +87,16 @@
   display: flex;
 }
 
-.container .side {
-  height: calc(100vh - 50px);
-  position: -webkit-sticky;
-  position: sticky;
-  top: 50px;
+.nav-menu {
+  left: -100%;
+  position: absolute;
+  -webkit-transition: 850ms;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0px;
+  -webkit-transition: 350ms;
+  transition: 350ms;
 }
 /*# sourceMappingURL=Dashboard.css.map */

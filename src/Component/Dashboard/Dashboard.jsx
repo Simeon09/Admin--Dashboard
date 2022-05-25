@@ -1,7 +1,8 @@
-import React from "react";
+import React, {useState} from "react";
 import MainRoute from "../MainRoute";
 import Sidebar from "../Sidebar/Sidebar";
-// import { FaBars } from "react-icons/fa";
+ import { FaBars } from "react-icons/fa";
+ import { FaTimes} from "react-icons/fa";
 
 import { MdLanguage, MdNotificationsNone, MdSettings } from "react-icons/md";
 
@@ -47,7 +48,17 @@ const Dashboard = () => {
   //   setpath(location)
 
   // }, [location])
-
+  const [sidebar, setsidebar] = useState(false)
+  const showSideBar = () => {
+    setsidebar(!sidebar)
+  }
+  //const [toggle, settoggle] = useState(true)
+  // const hidesidebar = () =>{
+  //   console.log('sidebar')
+  // }
+  // const handletoggle = () => {
+  //   settoggle(!toggle)
+  // }
   return (
     //  <div >
     //    <Navbar/>
@@ -58,8 +69,10 @@ const Dashboard = () => {
     <>
       <div className="header">
         <div>
-          {/* <FaBars className="iconbar" /> */}
-          <h2>ADMIN</h2>
+          <button onClick={showSideBar}>
+          { sidebar ? <FaTimes/>  : <FaBars/>}
+          </button>
+          
         </div>
         <div className="navIcon">
           <div className="notify">
@@ -79,8 +92,10 @@ const Dashboard = () => {
         </div>
       </div>
       <div className="container">
-        <div className="side">
-          <Sidebar />
+        <div className={ sidebar ? 'nav-menu-active' : 'nav-menu'  }>
+          <nav onClick={showSideBar}   >
+            <Sidebar  />
+          </nav>
         </div>
         <MainRoute />
       </div>

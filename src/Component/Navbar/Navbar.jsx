@@ -8,7 +8,7 @@ import Avatar from "../images/avatar.png";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <FaBars className="iconbar" />
+      <FaBars />
       <div className="navIcon">
         <div className="notify">
           <GrNotification className="icon" />

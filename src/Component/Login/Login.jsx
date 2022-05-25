@@ -39,7 +39,7 @@ const Login = () => {
     toast.success("Login Successful");
     setTimeout(() => {
       window.location='/Dashboard'
-    }, 2000);
+    }, 1000);
   };
 
   return (

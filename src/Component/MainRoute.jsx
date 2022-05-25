@@ -6,7 +6,7 @@ import Logout from './Pages/Logout/Logout'
 import Product from  './Pages/Product-Page/Product'
 import InnerContent from './innerContent/InnerContent'
 import Team from './Pages/Team Members/Team'
-import {Routes, Route} from 'react-router-dom'
+import {Routes, Route,Navigate} from 'react-router-dom'
 
 
 const MainRoute = () => {
@@ -14,7 +14,9 @@ const MainRoute = () => {
     <div>
         <Routes>
          <Route path='/' element={< InnerContent />}/>
+        <Route path='/*' element={< Navigate replace to= 'Home'/>}/>
         <Route path='/Home' element={<Home/>}/>
+
         {/* <Route path='/Dashboard' element={<Dashboard/>}/> */}
         <Route path='/Clients' element={<Clients/>}/>
          <Route path='/Product' element={<Product/>}/>

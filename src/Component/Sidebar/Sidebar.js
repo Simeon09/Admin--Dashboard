@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 import './sass/sidebar.css'
 import { FaProductHunt } from "react-icons/fa";
@@ -6,13 +6,16 @@ import { FaUserFriends } from "react-icons/fa";
 import {AiOutlineTeam } from "react-icons/ai";
 import {AiOutlineLogout } from "react-icons/ai";
 import {AiFillHome } from "react-icons/ai";
-import {Link } from 'react-router-dom'
+import {Link } from 'react-router-dom';
+import { FaTimes } from "react-icons/fa";
+
 
 const Sidebar = () => {
+  
   return (
     <div>
     <div className="dashBoard-sidebar">
-     
+    
       <h3>Welcome simeon</h3>
       <div className="main-sidebarContent">
 
