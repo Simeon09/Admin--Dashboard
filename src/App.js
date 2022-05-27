@@ -14,7 +14,8 @@ import Login from './Component/Login/Login';
 // import Product from './Component/Pages/Product-Page/Product'
 // import Logout from './Component/Pages/Logout/Logout'
 // import { Redirect } from 'react-router-dom';
-//import MainRoute from './Component/MainRoute';
+
+import ProtectedRoute from './Component/ProtectedRoute/ProtectedRoute';//import MainRoute from './Component/MainRoute';
 function App() {
   return (
     <div>
@@ -23,7 +24,10 @@ function App() {
       //<MainRoute/>  */}
       <Routes>
       <Route path='/' element={<Login/>}/>
+      <Route element={<ProtectedRoute/>}>
+
       <Route path='/*' element={<Dashboard/>}/>
+      </Route>
       
       
       </Routes>

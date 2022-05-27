@@ -11,12 +11,13 @@ import { FaTimes } from "react-icons/fa";
 
 
 const Sidebar = () => {
+  let userDetails = JSON.parse(sessionStorage.getItem("userDetails",))
   
   return (
     <div>
     <div className="dashBoard-sidebar">
     
-      <h3>Welcome simeon</h3>
+      <h3>Welcome {userDetails.name}</h3>
       <div className="main-sidebarContent">
 
       <Link className='links' to='/Home'>

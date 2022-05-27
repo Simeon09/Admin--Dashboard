@@ -1,10 +1,19 @@
 .charts {
-  padding-top: 10px;
-  margin-top: 40px;
-  padding-left: 20px;
+  padding-top: 5px;
+  margin-top: 20px;
+  padding-left: 0px;
   padding-bottom: 20px;
   border-radius: 10px;
   -webkit-box-shadow: -10px 8px 19px 10px rgba(0, 0, 0, 0.17);
           box-shadow: -10px 8px 19px 10px rgba(0, 0, 0, 0.17);
+}
+
+.charts h2 {
+  padding-left: 10px;
+}
+
+.AreaChart {
+  width: 250px;
+  height: 250px;
 }
 /*# sourceMappingURL=Rechart.css.map */
