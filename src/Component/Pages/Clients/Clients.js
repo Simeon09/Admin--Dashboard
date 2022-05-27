@@ -26,9 +26,9 @@ const Clients = () => {
           {clients
             ? clients?.map((client, idx) => (
                 <tr key={idx}>
-                  <td>{client.name}
-                  <p> <span> {client.firstname}</span>
-                      <span> {client.lastname}</span>
+                  <td>
+                  <p> <span> {client.contact.firstname}</span>
+                      <span> {client.contact.lastname}</span>
                       </p>
                   </td>
 

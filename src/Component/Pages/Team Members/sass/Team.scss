@@ -1,0 +1,38 @@
+.Team{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 30px;
+    h1{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 10px;
+    }
+    table, th, td {
+        border: 2px solid lightblue;
+        border-collapse: collapse;
+        text-align: left;
+        
+    }
+    
+    tr:nth-child(even){
+        background-color: #dddddd;
+    }
+    
+    th, td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 30px;
+        text-align: left;
+    }
+   td{
+      img{
+        width: 45px;
+        height: 45px;
+        // background-color: white;
+        border-radius: 200%;
+      }
+  }
+   
+}

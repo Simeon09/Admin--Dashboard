@@ -1,0 +1,38 @@
+.Team {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 30px;
+}
+
+.Team h1 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+.Team table, .Team th, .Team td {
+  border: 2px solid lightblue;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.Team tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.Team th, .Team td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 30px;
+  text-align: left;
+}
+
+.Team td img {
+  width: 45px;
+  height: 45px;
+  border-radius: 200%;
+}
+/*# sourceMappingURL=Team.css.map */
