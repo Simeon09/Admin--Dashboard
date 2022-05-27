@@ -1,7 +1,15 @@
 .client {
   padding-left: 3vw;
   padding-right: 3vw;
-  padding-top: 50px;
+  padding-top: 30px;
+}
+
+.client h1 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 10px;
 }
 
 .client table, .client th, .client td {
