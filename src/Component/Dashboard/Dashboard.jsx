@@ -97,7 +97,10 @@ const Dashboard = () => {
             <Sidebar  />
           </nav>
         </div>
+        <div className="main">
+
         <MainRoute />
+        </div>
       </div>
     </>
   );

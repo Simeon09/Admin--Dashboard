@@ -6,14 +6,21 @@
     background-color: rgb(18, 17, 17);
     width: 100px;
     color: white;
-    height: 80vh;
-    padding-bottom: 100px;
-    flex: 1;
+    height: 200vh;
+    
+    
     position: sticky;
+    
+    padding-top: 15px;
+    h3{
+        padding-bottom: 20px;
+    }
+    
     @media screen and (max-width:760px) {
         width:90px;
         padding-right: 2vw;
         padding-left: 2vw;
+        height: 250vh;
     }
 
 
@@ -24,15 +31,19 @@
         color: white;
         font-size: 20px;
         .links{
-             text-decoration: none;
-             color: white;
-             
+            text-decoration: none;
+            color: white;
+            
         }
-
+        
         span {
             display: flex;
             align-items: center;
             gap: 10px;
+            padding-bottom: 30px;
+            @media screen  and (max-width:760px){
+                padding-bottom: 10px;
+            }
 
             &:hover {
                 color: rgb(21, 21, 180);

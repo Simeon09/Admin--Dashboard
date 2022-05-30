@@ -7,11 +7,12 @@ import Product from  './Pages/Product-Page/Product'
 import InnerContent from './innerContent/InnerContent'
 import Team from './Pages/Team Members/Team'
 import {Routes, Route,Navigate} from 'react-router-dom'
+import './Mainroute.css'
 
 
 const MainRoute = () => {
   return (
-    <div>
+    <div className='mainroute'>
         <Routes>
          <Route path='/' element={< InnerContent />}/>
         <Route path='/*' element={< Navigate replace to= 'Home'/>}/>
