@@ -1,11 +1,48 @@
 .charts {
   padding-top: 5px;
-  margin-top: 20px;
+  margin-top: 25px;
   padding-left: 0px;
   padding-bottom: 20px;
   border-radius: 10px;
   -webkit-box-shadow: -10px 8px 19px 10px rgba(0, 0, 0, 0.17);
           box-shadow: -10px 8px 19px 10px rgba(0, 0, 0, 0.17);
+  width: 900px;
+}
+
+@media screen and (max-width: 1220px) {
+  .charts {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .charts {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .charts {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .charts {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .charts {
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .charts {
+    width: 285px;
+  }
 }
 
 .charts h2 {
