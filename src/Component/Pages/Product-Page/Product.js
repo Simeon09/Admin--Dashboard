@@ -3,8 +3,9 @@ import React, { useEffect, useState } from "react";
 import "./sass/product.css";
 const Product = () => {
   const [products, setproducts] = useState([]);
+  const url = process.env.REACT_APP_PRODUCT_URL;
   useEffect(() => {
-    fetch("https://fakerapi.it/api/v1/products?_quantity=6")
+    fetch(url)
       .then((response) => response.json())
       .then((data) => setproducts(data.data));
   }, []);

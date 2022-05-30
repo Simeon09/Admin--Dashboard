@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./sass/clients.css";
-import Avatar from "../../images/avatar.png";
+
 const Clients = () => {
   const [clients, setclients] = useState([]);
+  const url = process.env.REACT_APP_CLIENT_URL;
   useEffect(() => {
-    fetch("https://fakerapi.it/api/v1/companies?_quantity=7")
+    fetch(url)
       .then((response) => response.json())
       .then((data) => setclients(data.data));
   }, []);

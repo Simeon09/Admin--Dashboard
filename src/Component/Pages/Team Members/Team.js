@@ -2,8 +2,9 @@ import React,{useEffect,useState} from 'react'
 import './sass/Team.css'
 const Team = () => {
   const [Teams, setTeams] = useState([]);
+  const url = process.env.REACT_APP_TEAM_URL;
   useEffect(() => {
-    fetch("https://fakerapi.it/api/v1/companies?_persons=10")
+    fetch(url)
       .then((response) => response.json())
       .then((data) => setTeams(data.data));
       

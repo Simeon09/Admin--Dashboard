@@ -1,3 +1,7 @@
+
+
+
+
 .Login {
     width: 100%;
     display: flex;
@@ -6,10 +10,12 @@
     align-items: center;
 
 
+
 .input-tag {
     margin-top: 10px;
     margin-bottom: 20px;
     border: 2px solid black;
+    border-radius: 10px;
     @media screen and (max-width:500px){
         width: 300px;
         display: flex;
@@ -61,7 +67,7 @@
     margin-top: 50px;
     padding: 10px 200px;
     border-radius: 10px;
-    background-color: blue;
+    background-image: linear-gradient(to right, green,white);
     color: white;
     font-size: 16px;
     font-weight: 400;
@@ -70,6 +76,7 @@
         
     }
     &:hover{
-        background-color: lightblue;
+        background-image: linear-gradient(to right, green, black);
+
     }
 }
