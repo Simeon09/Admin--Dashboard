@@ -3,7 +3,7 @@ import MainRoute from "../MainRoute";
 import Sidebar from "../Sidebar/Sidebar";
  import { FaBars } from "react-icons/fa";
  import { FaTimes} from "react-icons/fa";
-
+ import StickyBox from "react-sticky-box";
 import { MdLanguage, MdNotificationsNone, MdSettings } from "react-icons/md";
 
 import Avatar from "../images/avatar.png";
@@ -94,7 +94,7 @@ const Dashboard = () => {
       <div className="container">
         <div className={ sidebar ? 'nav-menu-active' : 'nav-menu'  }>
           <nav onClick={showSideBar}   >
-            <Sidebar  />
+           <StickyBox> <Sidebar/> </StickyBox> 
           </nav>
         </div>
         <div className="main">

@@ -91,6 +91,10 @@
   display: flex;
 }
 
+.container main {
+  margin-left: 860px;
+}
+
 .nav-menu {
   left: -100%;
   position: absolute;
