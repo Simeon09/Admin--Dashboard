@@ -28,14 +28,14 @@ const Team = () => {
             ? Teams?.map((Team, idx) => (
                 <tr key={idx}>
                   <td>
-                  <p> <span> {Team.contact.firstname}</span>
-                      <span> {Team.contact.lastname}</span>
+                  <p> <span> {Team.firstname}</span>
+                      <span> {Team.lastname}</span>
                       </p>
                   </td>
 
                   <td> {Team.email}</td>
                   <td>{Team.phone}</td>
-                  <td> {Team.contact.gender}</td>
+                  <td> {Team.gender}</td>
                   <td>
                     <img src={Team.image} alt='icon'/>
                    
